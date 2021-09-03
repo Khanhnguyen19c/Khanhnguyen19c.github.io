@@ -1391,7 +1391,7 @@ border-radius: .5rem;
         top: 78%;
     }
     .dk-footer-form button[type=submit] {
-        right: 42%;
+        right: 27%;
 }
 .portfolio_video{
     max-width: 100%;
@@ -1400,6 +1400,11 @@ border-radius: .5rem;
 .porfolio_img{
     max-width: 100%;
     min-height: auto;
+}
+}
+@media screen and (min-width:450px) {
+   .dk-footer-form button[type=submit] {
+        right: 44%;
 }
 }
  /* STYLE MEDIUM */
@@ -1466,6 +1471,7 @@ border-radius: .5rem;
     .home_img .light{
         max-width: 85%; position: absolute; top: 5%; left: -67%; transform: rotate(48deg);
     }
+    
  }
  @media screen and (min-width:768px) {
      .container{
