@@ -1,30 +1,36 @@
-# <p align="center">𝓣𝓻𝓪̂̀𝓷 𝓝𝓰𝓸̣𝓬 𝓣𝓲𝓮̂́𝓷</p>
+# <p align="center">Nguyễn Duy Khánh</p>
 
 <p align="center">
-	<a href="https://github.com/ngoctienTNT">
-	<img src="https://avatars.githubusercontent.com/u/79617804" width = "200" alt="TNT">
+	<a href="https://github.com/Khanhnguyen19c/">
+	<img src="https://avatars.githubusercontent.com/u/89779723" width = "200" alt="TNT">
 	</a>
 </p>
 
 <h2 align="center">About me</h2>
 
 ```C#
-namespace NDK
+namespace Profile
 {
-    class helloWorld
+    class Main
     {
-        static void Main(string[] args)
-        {
-            string Name = "Nguyễn Duy Khánh";
-            string Age = "2000";
-            string Gender = "Male";
-            string Address = "Vĩnh Long, Việt Nam";
-            string University = "Trường cao đẳng Kinh tế - Kỹ thuật Cần Thơ";
-            string Skills = "PHP, Laravel, Go Lang, HTML5, CSS, JavaScript";
-            string FamousQuotes = "Chỉ có sự thành công mới định nghĩa mày là ai!";
-        }
-    }
-}
+	    protected static $_name = 'Nguyễn Duy Khánh';
+	    protected static $_age = '22';
+	    protected static $_location = 'Vĩnh Long';
+	    protected static $_skill = 'PHP, Laravel, Livewire, HTML5, CSS, JavaScript, Go Lang';
+	    public static function myProfile ($name, $age, $location, $skill){
+	    	Main::$_name = $name;
+		Main::$_age = $age;
+		Main::$_location = $location;
+		Main::$_skill = $skill;
+	    }
+	     public static function getProfile (){
+	    	return [
+			Main::$_name,
+			Main::$_age,
+			Main::$_location,
+			Main::$_skill
+		],
+	    };
 ```
 
 ## <p align="center">You can reach me at 🌹</p>
@@ -42,17 +48,10 @@ namespace NDK
     <img src="https://www.vectorlogo.zone/logos/devto/devto-icon.svg" alt="DevTo" height="30" width="30">
   </a>
 	
-  <a href="https://github.com/Khanhnguyen19c/">
-    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Linkedin" height="30" width="30">
-  </a>
-  
   <a href="mailto:khanhnguyen19c.@gmail.com">
     <img src="https://www.vectorlogo.zone/logos/google/google-icon.svg" alt="Google" height="30" width="30">
   </a>
 	
-  <a href="https://github.com/Khanhnguyen19c/">
-    <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="Instagram" height="30" width="30">
-  </a>
   
 </p>
 
@@ -62,34 +61,28 @@ namespace NDK
   <tbody>
     <tr valign="top">
       <td width="20%" align="center">
-	<a href="https://devdocs.io/cpp/">
-		<span>𝗖++</span><br><br><br>
-		<img height="64px" src="https://cdn.worldvectorlogo.com/logos/c.svg">
+	<a href="https://www.php.net/docs.php">
+		<span>PHP</span><br><br><br>
+		<img height="64px" src="https://cdn.worldvectorlogo.com/logos/php.svg">
 	 </a>
       </td>
       <td width="20%" align="center">
-	 <a href="https://docs.microsoft.com/dotnet/csharp/">
-		<span>𝗖#</span><br><br><br>
-		<img height="64px" src="https://cdn.svgporn.com/logos/c-sharp.svg">
+	 <a href="https://laravel.com/docs/8.x">
+		<span>Laravel</span><br><br><br>
+		<img height="64px" src="https://cdn.svgporn.com/logos/laravel.svg">
 	 </a>
       </td>
       <td width="20%" align="center">
-	<a href="https://docs.oracle.com/java/">
-		<span>𝗝𝗮𝘃𝗮</span><br><br><br>
-		<img height="64px" src="https://cdn.svgporn.com/logos/java.svg">
+	 <a href="https://laravel.com/docs/8.x">
+		<span>MySql</span><br><br><br>
+		<img height="64px" src="https://cdn.svgporn.com/logos/mysql.svg">
 	 </a>
       </td>
 	<td width="20%" align="center">
-		<a href="https://dart.dev/guides">
-        <span>𝗗𝗮𝗿𝘁</span><br><br><br>
-        <img height="64px" src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg">
-		</a>
-      </td>
-      <td width="20%" align="center">
-	      <a href="https://docs.python.org/3/">
-        <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
-	      </a>
+	 <a href="https://devdocs.io/javascript/">
+		<span>JavaScript</span><br><br><br>
+		<img height="64px" src="https://cdn.svgporn.com/logos/javascript.svg">
+	 </a>
       </td>
     </tr>
     <tr valign="top">
@@ -100,77 +93,55 @@ namespace NDK
 		</a>
       </td>
 	<td width="20%" align="center">
-		<a href="https://docs.microsoft.com/visualstudio/ide/?view=vs-2019">
-        <span>𝗩𝗶𝘀𝘂𝗮𝗹 𝗦𝘁𝘂𝗱𝗶𝗼</span><br><br><br>
-        <img height="64px" src="https://cdn.worldvectorlogo.com/logos/visual-studio-2013.svg">
+		<a href="https://www.jetbrains.com/phpstorm/documentation/">
+        <span>PhpStorm</span><br><br><br>
+        <img height="64px" src="https://cdn.cdnlogo.com/logos/p/61/phpstorm.svg">
 		</a>
       </td>
-      <td width="20%" align="center">
-	      <a href="https://developer.android.com/docs">
-        <span>𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗦𝘁𝘂𝗱𝗶𝗼</span><br><br><br>
-        <img height="64px" src="https://cdn.worldvectorlogo.com/logos/android-logomark.svg">
-	      </a>
+    	<td width="20%" align="center">
+		 <a href="https://git-scm.com/doc">
+        <span>Git</span><br><br><br>
+        <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
+		</a>
       </td>
 	    <td width="20%" align="center">
-	<a href="https://docs.flutter.dev/">
-		<span>𝗙𝗹𝘂𝘁𝘁𝗲𝗿</span><br><br><br>
-		<img height="64px" src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg">
-	</a>
+		 <a href="https://www.apachefriends.org/download.html">
+        <span>Xampp</span><br><br><br>
+        <img height="64px" src="https://cdn.svgporn.com/logos/xampp.svg">
+		</a>
       </td>
-      <td width="20%" align="center">
-	      <a href="https://git-scm.com/doc">
-        <span>𝗚𝗶𝘁</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
-	      </a>
-      </td>
-    </tr>
+   </tr>
   </tbody>
 </table>
 
-## <p align="center">Visitor's count :eyes:</p>
 
-<p align="center"><img src="https://profile-counter.glitch.me/{ngoctienTNT}/count.svg" alt="ngoctienTNT :: Visitor's Count" /></p>
-
-## <p align="center">GitHub Profile Trophy 🏆</p>
-
-<p align='center'>
-<img src="https://github-profile-trophy.vercel.app/?username=ngoctienTNT&theme=tokyonight&row=2&column=4">
-</p>
-
-## <p align="center">Top langs :tongue:</p>
-
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ngoctienTNT&langs_count=10&theme=tokyonight&layout=compact" alt="ngoctienTNT :: Top Langs" /></p>
-
-## <p align="center">Profile stats :musical_keyboard:</p>
-
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=ngoctienTNT&show_icons=true&theme=tokyonight" alt="ngoctienTNT :: Profile Stats" /></p>
 
 ## <p align="center">Repository pin 📌</p>
 
 <p align="center">	
-<a href="https://github.com/ngoctienTNT/GiveLoveTNT">
-	<img src="https://github-readme-stats.vercel.app/api/pin/?username=ngoctienTNT&repo=GiveLoveTNT&theme=tokyonight" alt="ngoctienTNT" />
+<a href="https://github.com/Khanhnguyen19c/E-commerce-Laravel-8">
+	<img src="https://github-readme-stats.vercel.app/api/pin/?username=Khanhnguyen19c&repo=E-commerce-Laravel-8&theme=tokyonight" alt="KhanhLaravel8" />
 </a>
 	
-<a href="https://github.com/ngoctienTNT/TodoList2021">
-	<img src="https://github-readme-stats.vercel.app/api/pin/?username=ngoctienTNT&repo=TodoList2021&theme=tokyonight" alt="ngoctienTNT" />
+<a href="https://github.com/Khanhnguyen19c/E-commerce-Laravel-6">
+	<img src="https://github-readme-stats.vercel.app/api/pin/?username=Khanhnguyen19c&repo=E-commerce-Laravel-6&theme=tokyonight" alt="KhanhLaravel6" />
 </a>
 </p>
 
 <p align="center">	
-<a href="https://github.com/ngoctienTNT/ILoveNgocTien" margin="100">
-	<img src="https://github-readme-stats.vercel.app/api/pin/?username=ngoctienTNT&repo=ILoveNgocTien&theme=tokyonight" alt="ngoctienTNT" />
+<a href="https://github.com/Khanhnguyen19c/CTEC_SYSTEM21" margin="100">
+	<img src="https://github-readme-stats.vercel.app/api/pin/?username=Khanhnguyen19c&repo=CTEC_SYSTEM21&theme=tokyonight" alt="KhanhLaravel" />
 </a>
 	
-<a href="https://github.com/ngoctienTNT/ngoctien.TNT">
-	<img src="https://github-readme-stats.vercel.app/api/pin/?username=ngoctienTNT&repo=ngoctien.TNT&theme=tokyonight" alt="ngoctienTNT" />
+<a href="https://github.com/Khanhnguyen19c/Khanhnguyen19c.github.io">
+	<img src="https://github-readme-stats.vercel.app/api/pin/?username=Khanhnguyen19c&repo=Khanhnguyen19c.github.io&theme=tokyonight" alt="KhanhProfile" />
 </a>
 </p>
 
 ## <p align="center">Github Contributions 📈</p>
 <br>
 <p align='center'>
-<img src="https://activity-graph.herokuapp.com/graph?username=ngoctienTNT&theme=react-dark&hide_border=true">
+<img src="https://activity-graph.herokuapp.com/graph?username=Khanhnguyen19c&theme=react-dark&hide_border=true">
 <p>
 
 <hr>
@@ -178,7 +149,7 @@ namespace NDK
 
 ## <p align="center">Just a snake eating my contributions 🐍</p>
 <p align='center'>
-<img src="https://github.com/ngoctienTNT/ngoctienTNT/blob/output/github-contribution-grid-snake.svg">
+<img src="https://github.com/Khanhnguyen19c/Khanhnguyen19c.github.io/blob/master/contributions.svg">
 </p>
 
 <hr>
