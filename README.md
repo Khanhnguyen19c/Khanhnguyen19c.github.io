@@ -175,10 +175,3 @@ package MyProfile;
 <p align='center'>
 <img src="https://github.com/Khanhnguyen19c/Khanhnguyen19c.github.io/blob/master/contributions.svg">
 </p>
-
-<hr>
-<br>
-
-##
-
-<p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
